@@ -1,7 +1,10 @@
 package Entities;
 
-public class SlimState {
+import java.io.Serializable;
+
+public class SlimState implements Serializable{
 	
+	private static final long serialVersionUID = 1L;
 	private int [][] board;
 	private int score;
 	
