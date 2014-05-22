@@ -15,5 +15,7 @@ public enum GameAction {
 	UNDO,
 	GAME_OVER,
 	GAME_WIN,
-	SOLVE
+	SOLVE,
+	CONNECT,
+	DISCONNECT
 };
